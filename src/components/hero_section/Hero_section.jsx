@@ -69,7 +69,12 @@ export const Hero_section = () => {
           animate={{ y: 0 }}
           transition={{ duration: 1, delay: 2 }}
         >
-          <button className="button_hero text_button">KNOW MORE</button>
+          <button
+            onClick={() => navigate("/product")}
+            className="button_hero text_button"
+          >
+            KNOW MORE
+          </button>
         </motion.div>
       </motion.div>
     </section>
