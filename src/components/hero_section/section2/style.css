@@ -1,0 +1,62 @@
+#way_to_ship {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.images_bottels {
+  margin: 8rem 0;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  height: 765px;
+  background: linear-gradient(
+      180deg,
+      rgba(28, 91, 79, 0.2) 0%,
+      rgba(28, 142, 128, 0.2) 100%
+    ),
+    radial-gradient(
+      81.25% 325% at 14.27% 29.03%,
+      #565859 9.84%,
+      rgba(17, 24, 30, 0.98) 65.12%
+    );
+}
+
+.images_bottels img {
+  transform: rotate(30deg);
+  position: relative;
+}
+
+.img1 {
+  top: 5rem;
+}
+.img2 {
+  top: -7rem;
+  left: 3rem;
+}
+.img3 {
+  top: 16rem;
+}
+.img4 {
+  top: -10rem;
+  left: 3rem;
+}
+
+#way_to_ship .bottel_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 473px;
+  height: 232px;
+}
+
+#way_to_ship .bottel_text h1 {
+  font-weight: 700;
+  font-family: "inter";
+  font-size: 90px;
+  color: white;
+}

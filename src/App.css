@@ -1,0 +1,23 @@
+#root {
+  max-width: 2000px;
+  margin: 0 auto;
+
+  overflow-y: hidden;
+  /* text-align: center; */
+}
+
+span {
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

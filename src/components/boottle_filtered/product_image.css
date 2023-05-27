@@ -1,0 +1,88 @@
+#c_section_slider {
+  width: 600px;
+
+  height: 600px;
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a_left {
+  left: 20px;
+}
+.a_rigth {
+  right: 20px;
+}
+#crousole_image .main {
+  height: 100%;
+  width: 100%;
+
+  background-color: #007eb953;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+.main_image_cap {
+  height: 56.797508239746094px;
+  width: 101.0467300415039px;
+  position: relative;
+  top: 50px;
+  left: 3px;
+  transition: all 0.2s;
+  z-index: 3;
+}
+.main_image_bottel {
+  height: 414.75390625px;
+  width: 126.14330291748047px;
+  transition: all 0.2s;
+}
+#crousole_image .main:hover {
+  background-color: white;
+}
+.main:hover .main_image_bottel {
+  transform: scale(1.2) rotate(30deg);
+  position: relative;
+  top: 30px;
+  left: -15px;
+}
+.main:hover .main_image_cap {
+  z-index: 3;
+  top: -10px;
+  left: 150px;
+  transform: scale(1.2) rotate(30deg);
+}
+
+#crousole_image .other_images {
+  display: flex;
+}
+#crousole_image .c_image {
+  height: 80%;
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#crousole_image .other_images .c_image_div {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: #f5f3f2;
+  position: relative;
+}
+
+.c_image_cap {
+  width: 40%;
+}

@@ -1,0 +1,67 @@
+#footer {
+  font-family: "Inter", sans-serif;
+  margin-top: 4rem;
+  overflow: hidden;
+}
+
+#footer section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#footer ul {
+  font-size: 18px;
+  color: #272727;
+}
+#footer ul li {
+  margin: 20px;
+  font-family: "Inter", sans-serif;
+}
+.footer_heading {
+  font-weight: bold;
+  font-size: 24px;
+}
+.email {
+  margin-top: 1rem;
+  width: 500px;
+  position: relative;
+}
+.email input {
+  width: 70%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 3px;
+}
+.email div {
+  position: relative;
+  margin-top: 1rem;
+  border: 2px solid gray;
+  border-radius: 29px;
+  padding: 0.5rem 1rem;
+}
+.email div button {
+  cursor: pointer;
+  position: absolute;
+  right: 2px;
+  top: 1.5px;
+  border-radius: 29px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(to bottom, #004e84, #01adeb);
+}
+#wave_section {
+  margin-top: -10rem;
+  background-image: linear-gradient(
+    to bottom,
+    white 30%,
+    rgba(0, 0, 255, 0.59)
+  );
+}
+
+#footer_copywrite {
+  color: white;
+}

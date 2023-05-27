@@ -1,0 +1,152 @@
+#product_text {
+  margin: 0 8rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato";
+}
+#price_section p {
+  display: inline-block;
+}
+
+#price_section .price {
+  font-weight: 700;
+  font-size: 24px;
+  color: #13395b;
+}
+#price_section .price-cut {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration-line: line-through;
+
+  /* gray/700 */
+  margin-left: 10px;
+  align-items: center;
+
+  color: #787a80;
+}
+
+#price_section .discount {
+  background: #ff4242;
+  color: white;
+  padding: 1px 8px;
+  border-radius: 4px;
+  margin-left: 3px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.color {
+  display: flex;
+  justify-content: space-between;
+}
+.insulted {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+#color_selector p {
+  margin-top: 0 !important;
+}
+#color_selector input {
+  margin-right: 5px;
+}
+.insulted p {
+  border: 2px solid gray;
+  /* width: 109px; */
+  height: 44px;
+  padding: 7px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+select {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.lable {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px !important;
+}
+.number_button {
+  display: flex;
+  justify-content: space-between;
+}
+.number_input {
+  padding: 1rem 0.6rem;
+  width: 80px;
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+
+  height: 44px;
+  font-size: 14px;
+  outline: none;
+  border: 2.5px solid #d7dadd;
+  border-radius: 5px;
+}
+.number_button button {
+  margin: 2rem 1.5rem;
+  height: 44px;
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.add_to_cart {
+  width: 244px;
+  background-color: #13395b;
+  color: white;
+}
+.Favourite {
+  width: 153px;
+  background-color: white;
+  color: #13395b;
+  border: 2px solid #13395b;
+  font-weight: 500;
+}
+.number_button .icon {
+  margin: 0 1rem;
+}
+
+table {
+  margin: 1rem 0;
+}
+table th {
+  align-items: start;
+  color: #424551;
+}
+
+table td {
+  color: #424551;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+table th,
+td {
+  border-bottom: 2px solid gray;
+}
+
+#product_text .list {
+  list-style: circle;
+  margin-left: 1rem;
+  color: #424551;
+  font-size: 14px;
+}
+
+#product_text p {
+  margin: 1rem 0;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selected {
+  border: 2px solid #17696a !important;
+  color: #17696a !important;
+}

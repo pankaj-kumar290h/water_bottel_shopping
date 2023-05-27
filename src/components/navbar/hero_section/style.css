@@ -1,0 +1,42 @@
+.navbar_hero {
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_hero h1 {
+  color: #13395b;
+  font-size: 24;
+}
+
+.navbar_hero .links {
+  display: flex;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+}
+.navbar_hero ul li {
+  margin: 5px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #1d1b19;
+  cursor: pointer;
+}
+.navbar_hero .links ul {
+  display: flex;
+}
+
+.button_hero {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 0 10px;
+  background-image: linear-gradient(to bottom, #e9c46b, #f3a261);
+}

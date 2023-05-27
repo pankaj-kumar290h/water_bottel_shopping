@@ -1,0 +1,86 @@
+#testmonial {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #00243e, #01adeb);
+  height: 600px;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+#testmonial h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  color: white;
+}
+
+#testmonial .card_body {
+  text-align: start;
+  padding: 2rem;
+  height: 290px;
+  width: 450px;
+  border: 2px solid white;
+
+  position: relative;
+  border-radius: 10px;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+}
+
+#testmonial .card_body .t_profile_image {
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+#testmonial .card_body .text {
+  margin-top: 2.5rem;
+}
+#testmonial .card_body p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: white;
+}
+
+#testmonial .card_body .text .editor {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 1rem;
+}
+
+#testmonial_card_section {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.editor {
+  position: relative;
+}
+
+.editor .first {
+  font-size: 0.7rem;
+}
+.editor .second {
+  font-size: 0.6rem;
+}
+.editor h3 {
+  margin-top: 5px;
+  font-style: italic;
+}
+.editor .coma {
+  position: absolute;
+  top: -20px;
+}
+#testmonial .small {
+  transform: scale(0.8);
+  backdrop-filter: blur(5px);
+}
+
+.b1 {
+  position: absolute;
+  top: 0;
+  transform: scale(1.2);
+  left: -30px;
+  z-index: -3;
+}

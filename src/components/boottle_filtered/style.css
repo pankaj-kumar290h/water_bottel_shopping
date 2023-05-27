@@ -1,0 +1,28 @@
+#bottel_filtered {
+  width: 80%;
+  margin: auto;
+}
+#review {
+  display: flex;
+  justify-content: space-between;
+}
+
+#review .filter ul {
+  display: flex;
+}
+
+.review_filter {
+  padding: 1rem 0.8rem;
+  margin-right: 1rem;
+  border: 2px solid #13395b;
+  border-radius: 5px;
+  font-size: 15px;
+}
+#bottel_filtered hr {
+  margin: 1rem 0;
+}
+/* /////////////////// */
+
+#bottel_product_section {
+  display: flex;
+}
