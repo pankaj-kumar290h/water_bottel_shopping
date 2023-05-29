@@ -63,18 +63,14 @@ export const Hero_section = () => {
           Hit refresh with the intelligently clean bottle built for adventure.
         </p>
         <motion.div
+          onClick={() => navigate("/product")}
           initial={{
             y: 150,
           }}
           animate={{ y: 0 }}
           transition={{ duration: 1, delay: 2 }}
         >
-          <button
-            onClick={() => navigate("/product")}
-            className="button_hero text_button"
-          >
-            KNOW MORE
-          </button>
+          <button className="button_hero text_button">KNOW MORE</button>
         </motion.div>
       </motion.div>
     </section>
